@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard_Student">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="19dp"
+        android:layout_height="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtEdit_email_invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="hint"
+            tools:ignore="TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <FrameLayout
+                    android:id="@+id/frameLayout"
+                    android:layout_width="406dp"
+                    android:layout_height="310dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="301dp">
+
+                        <LinearLayout
+                            android:layout_width="406dp"
+                            android:layout_height="303dp"
+                            android:orientation="vertical"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <LinearLayout
+                                    android:id="@+id/linearLayout4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <ImageView
+                                            android:id="@+id/imageView9"
+                                            android:layout_width="413dp"
+                                            android:layout_height="196dp"
+                                            android:scaleType="centerCrop"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            app:srcCompat="@drawable/student_cover" />
+
+                                        <ImageButton
+                                            android:id="@+id/imgBtn_EditProfile_S"
+                                            android:layout_width="55dp"
+                                            android:layout_height="52dp"
+                                            android:layout_marginStart="125dp"
+                                            android:layout_marginTop="15dp"
+                                            android:minHeight="48dp"
+                                            android:tint="#B73D2A"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toBottomOf="@+id/imageView9"
+                                            app:srcCompat="@drawable/ic_baseline_create_24"
+                                            tools:ignore="SpeakableTextPresentCheck" />
+
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                </LinearLayout>
+
+                                <ImageView
+                                    android:id="@+id/imageViewResultStudent"
+                                    android:layout_width="122dp"
+                                    android:layout_height="108dp"
+
+                                    android:layout_marginStart="40dp"
+                                    android:layout_marginBottom="75dp"
+                                    android:scaleType="fitXY"
+                                    app:layout_constraintBottom_toBottomOf="@+id/linearLayout4"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:srcCompat="@drawable/student_icon" />
+
+                                <TextView
+                                    android:id="@+id/textViewS"
+                                    android:layout_width="175dp"
+                                    android:layout_height="96dp"
+                                    android:layout_marginStart="45dp"
+                                    android:layout_marginTop="195dp"
+                                    android:background="@drawable/background_3"
+                                    android:lineSpacingExtra="10sp"
+                                    android:paddingStart="12dp"
+                                    android:paddingTop="8dp"
+                                    android:paddingBottom="2dp"
+                                    android:text="Fullname \nEmail \nRoles"
+                                    android:textColor="@color/darkm"
+                                    android:textSize="14sp"
+                                    app:layout_constraintStart_toEndOf="@+id/imageViewResultStudent"
+                                    app:layout_constraintTop_toTopOf="@+id/linearLayout4" />
+
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+                        </LinearLayout>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="375dp"
+                    android:layout_marginTop="45dp"
+                    android:background="@drawable/background_1"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/frameLayout">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/btnRecentAttended"
+                            android:layout_width="245dp"
+                            android:layout_height="53dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="24dp"
+                            android:layout_marginEnd="8dp"
+                            android:background="@drawable/background_3"
+                            android:fontFamily="sans-serif"
+                            android:text="Recent Attended"
+                            app:backgroundTint="@color/lightm"
+                            app:icon="@drawable/ic_baseline_history_24"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+                        <Button
+                            android:id="@+id/btnAttendEvent"
+                            android:layout_width="235dp"
+                            android:layout_height="64dp"
+                            android:layout_marginTop="48dp"
+                            android:layout_marginEnd="32dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/buttonbackground_1"
+                            android:drawableLeft="@drawable/ic_baseline_input_24"
+                            android:padding="16dp"
+                            android:text="Attend to Event"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            app:backgroundTint="@color/blue_2196f3"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/btnRecentAttended" />
+
+                        <LinearLayout
+                            android:id="@+id/linearLayout3"
+                            android:layout_width="369dp"
+                            android:layout_height="113dp"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginTop="62dp"
+                            android:layout_marginEnd="25dp"
+                            android:background="@drawable/background_2"
+                            android:orientation="vertical"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/viewDate_S"
+                                    android:layout_width="0dp"
+                                    android:layout_height="19dp"
+                                    android:layout_marginStart="25dp"
+                                    android:layout_marginTop="18dp"
+                                    android:layout_marginEnd="25dp"
+                                    android:text="Date"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/white"
+                                    android:textSize="16sp"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/digitalClock" />
+
+                                <DigitalClock
+
+                                    android:id="@+id/digitalClock"
+                                    android:layout_width="0dp"
+                                    android:layout_height="34dp"
+                                    android:layout_marginStart="24dp"
+                                    android:layout_marginTop="16dp"
+                                    android:layout_marginEnd="24dp"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/white"
+                                    android:textSize="25dp"
+                                    android:textStyle="bold"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    tools:ignore="MissingConstraints" />
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+                        </LinearLayout>
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

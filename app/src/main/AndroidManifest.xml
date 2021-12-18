@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.attendancetestproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".VolleySingleton"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_attendance"
+        android:label="RADA"
+        android:roundIcon="@mipmap/ic_attendance_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AttendanceTestProject">
+        <activity
+            android:name=".StudentRecentListAttended"
+            android:exported="false" />
+        <activity
+            android:name=".ScanQRCode"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/Theme.AttendanceTestProject.Transparent"
+            tools:ignore="ExtraText">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CreateEvent"
+            android:exported="false" />
+        <activity
+            android:name=".FaciAttendanceList"
+            android:exported="false" />
+        <activity
+            android:name=".activity_FaciEvent"
+            android:exported="false"
+            android:label="@string/title_activity_faci_event"
+            android:theme="@style/Theme.AttendanceTestProject.NoActionBar" />
+        <activity
+            android:name=".updateinfo_facistu"
+            android:exported="false"
+            android:label="@string/title_activity_updatinginfo_faci_stu"
+            android:theme="@style/Theme.AttendanceTestProject.NoActionBar" />
+        <activity
+            android:name=".Dashboard_Student"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard_Facilititor"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

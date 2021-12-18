@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="39"
+    android:background="#FFFFFF"
+    tools:context=".Dashboard_Facilititor">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="0dp"
+                    android:layout_height="191dp"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/facilitator_cover" />
+
+                <ImageButton
+                    android:id="@+id/imgBtn_EditProfile"
+                    android:layout_width="62dp"
+                    android:layout_height="56dp"
+                    android:layout_marginStart="116dp"
+                    android:layout_marginTop="32dp"
+                    android:minHeight="48dp"
+                    app:layout_constraintStart_toStartOf="@+id/imageView"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView"
+                    app:srcCompat="@drawable/ic_baseline_create_24"
+                    app:tint="#B73D2A"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                <ImageView
+                    android:id="@+id/imageView_Result"
+                    android:layout_width="122dp"
+                    android:layout_height="108dp"
+
+                    android:layout_marginStart="45dp"
+                    android:layout_marginBottom="76dp"
+                    app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/facilitator_icon" />
+
+                <TextView
+                    android:id="@+id/textViewF"
+                    android:layout_width="0dp"
+                    android:layout_height="76dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/background_3"
+                    android:paddingStart="10dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="10dp"
+                    android:text="Fullname \nEmail \nRoles"
+                    android:textColor="@color/darkm"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imgBtn_EditProfile"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="406dp"
+                    android:layout_height="408dp"
+                    android:layout_marginTop="55dp"
+                    android:background="@drawable/background_1"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewF">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/btnEventList"
+                            android:layout_width="245dp"
+                            android:layout_height="53dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="56dp"
+                            android:layout_marginEnd="8dp"
+                            android:background="@drawable/background_3"
+                            android:fontFamily="sans-serif"
+                            android:text="View Event Created"
+                            app:backgroundTint="@color/lightm"
+                            app:icon="@drawable/ic_baseline_history_24"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+                        <LinearLayout
+                            android:id="@+id/linearLayout2"
+                            android:layout_width="327dp"
+                            android:layout_height="106dp"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginTop="62dp"
+                            android:layout_marginEnd="25dp"
+                            android:background="@drawable/background_2"
+                            android:orientation="vertical"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <DigitalClock
+
+                                    android:id="@+id/digitalClock"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="25dp"
+                                    android:layout_marginTop="16dp"
+                                    android:layout_marginEnd="25dp"
+                                    android:fontFamily="sans-serif-black"
+                                    android:textAlignment="center"
+                                    android:textColor="#FFCDD2"
+                                    android:textSize="25sp"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    tools:ignore="MissingConstraints" />
+
+                                <TextView
+                                    android:id="@+id/viewDate_F"
+                                    android:layout_width="0dp"
+                                    android:layout_height="19dp"
+                                    android:layout_marginStart="32dp"
+                                    android:layout_marginTop="18dp"
+                                    android:layout_marginEnd="32dp"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="Date"
+                                    android:textAlignment="center"
+                                    android:textColor="#FFCDD2"
+                                    android:textStyle="bold"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/digitalClock" />
+
+
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+                        </LinearLayout>
+
+                        <Button
+                            android:id="@+id/btnCreatingEvent"
+                            android:layout_width="211dp"
+                            android:layout_height="63dp"
+                            android:layout_marginTop="32dp"
+                            android:layout_marginEnd="24dp"
+                            android:background="@drawable/buttonbackground_1"
+                            android:drawableLeft="@drawable/ic_baseline_add_24"
+                            android:padding="16dp"
+                            android:text="Create Event"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            app:backgroundTint="@color/blue_2196f3"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/btnEventList" />
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/edtLay_emailView"
+                            android:layout_width="37dp"
+                            android:layout_height="2dp"
+                            android:visibility="visible"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/edtIn_EmailView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="hint"
+                                tools:ignore="TouchTargetSizeCheck" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

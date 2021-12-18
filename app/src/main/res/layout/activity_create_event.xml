@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateEvent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" />
+                </ScrollView>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/txtLay_EventTimeEnd"
+                    android:layout_width="160dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="16dp"
+                    android:hint="Event Time End"
+                    android:textColorHint="@color/lightm"
+                    app:expandedHintEnabled="false"
+                    app:hintAnimationEnabled="true"
+                    app:hintEnabled="true"
+                    app:hintTextAppearance="@style/TextAppearance.AppCompat.Body2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtLay_EventTimeStart">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txtEdit_EventTimeEnd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="time"
+                        android:textSize="14sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/txtLay_EventDate"
+                    android:layout_width="213dp"
+                    android:layout_height="53dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="24dp"
+                    android:hint="Event Date"
+                    android:textColorHint="@color/lightm"
+                    app:expandedHintEnabled="false"
+                    app:hintAnimationEnabled="true"
+                    app:hintTextAppearance="@style/TextAppearance.AppCompat.Body2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtLay_EventName">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txtEdit_EventDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="date"
+                        android:textSize="14sp"
+                        tools:ignore="DuplicateClickableBoundsCheck" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/txtLay_EventName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="16dp"
+                    android:gravity="center_horizontal"
+                    android:hint="Event Name"
+                    android:textColorHint="@color/lightm"
+                    app:expandedHintEnabled="false"
+                    app:hintAnimationEnabled="true"
+                    app:hintTextAppearance="@style/TextAppearance.AppCompat.Body2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txtEdit_EventName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        tools:ignore="DuplicateClickableBoundsCheck" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/txtLay_EventTimeStart"
+                    android:layout_width="166dp"
+                    android:layout_height="53dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="16dp"
+                    android:hint="Event Time Start"
+                    android:textColorHint="@color/lightm"
+                    app:expandedHintEnabled="false"
+                    app:hintAnimationEnabled="true"
+                    app:hintEnabled="true"
+                    app:hintTextAppearance="@style/TextAppearance.AppCompat.Body2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtLay_EventDate">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txtEdit_EventTimeStart"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="time"
+                        android:textSize="14sp"
+                        tools:ignore="DuplicateClickableBoundsCheck,TouchTargetSizeCheck" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/txtLay_EventDescrip"
+                    android:layout_width="0dp"
+                    android:layout_height="253dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="16dp"
+                    android:hint="Event Description"
+                    android:textColorHint="@color/lightm"
+                    app:expandedHintEnabled="false"
+                    app:hintAnimationEnabled="true"
+                    app:hintEnabled="true"
+                    app:hintTextAppearance="@style/TextAppearance.AppCompat.Body2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtLay_EventTimeEnd">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txtEdit_EventDescip"
+                        android:layout_width="match_parent"
+                        android:layout_height="253dp"
+                        android:gravity="left"
+                        android:inputType="textMultiLine"
+                        android:scrollbars="vertical"
+                        android:textAlignment="textStart"
+                        android:textSize="14sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/btnCreateEvent_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="Create"
+                    app:backgroundTint="@color/bluelight_6ec6ff"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtLay_EventDescrip" />
+
+                <ImageButton
+                    android:id="@+id/imgBtn_datePicker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="53dp"
+                    android:layout_marginTop="24dp"
+                    app:layout_constraintStart_toEndOf="@+id/txtLay_EventDate"
+                    app:layout_constraintTop_toBottomOf="@+id/txtLay_EventName"
+                    app:srcCompat="@drawable/ic_baseline_edit_calendar_24"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <ImageButton
+                    android:id="@+id/imgBtn_TimeStartPicker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="53dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintStart_toEndOf="@+id/txtLay_EventTimeStart"
+                    app:layout_constraintTop_toBottomOf="@+id/txtLay_EventDate"
+                    app:srcCompat="@drawable/ic_baseline_more_time_24"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <ImageButton
+                    android:id="@+id/imgBtn_TimePickerEnd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="53dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintStart_toEndOf="@+id/txtLay_EventTimeEnd"
+                    app:layout_constraintTop_toBottomOf="@+id/imgBtn_TimeStartPicker"
+                    app:srcCompat="@drawable/ic_baseline_more_time_24"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

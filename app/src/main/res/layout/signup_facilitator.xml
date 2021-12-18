@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="43dp"
+                android:layout_marginTop="55dp"
+                android:layout_marginEnd="43dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="Facilitator Sign Up"
+                android:textAlignment="center"
+                android:textColor="#800000"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.58"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/f_txtLayFullname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginEnd="40dp"
+                android:hint="Full Name"
+                android:textColorHint="@color/lightm"
+                app:expandedHintEnabled="false"
+                app:hintTextAppearance="@style/TextAppearance.AppCompat.Small"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/f_txtEditFullname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/f_txtLayEmail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="40dp"
+                android:hint="Email Address"
+                android:textColorHint="@color/lightm"
+                app:hintTextAppearance="@style/TextAppearance.AppCompat.Small"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/f_txtLayFullname">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/f_txtEditEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/f_txtLayUsername"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="40dp"
+                android:hint="Username"
+                android:textColorHint="@color/lightm"
+                app:hintTextAppearance="@style/TextAppearance.AppCompat.Small"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/f_txtLayEmail">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/f_txtEditUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/f_txtLayPassword"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="40dp"
+                android:hint="Password"
+                android:textColorHint="@color/lightm"
+                app:hintTextAppearance="@style/TextAppearance.AppCompat.Small"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/f_txtLayUsername"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/f_txtEditPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/f_txtLayConfirmPassword"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="40dp"
+                android:hint="Confirm Password"
+                android:textColorHint="@color/lightm"
+                app:hintTextAppearance="@style/TextAppearance.AppCompat.Small"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/f_txtLayPassword"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/f_txtEditConfirmPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btnF_sign"
+                style="@android:style/Widget.Button"
+                android:layout_width="110dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="75dp"
+                android:layout_marginBottom="25dp"
+                android:layout_weight="1"
+                android:background="@drawable/background_login"
+                android:text="Sign Up"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                app:backgroundTint="#800000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/btnF_Cancel"
+                app:layout_constraintTop_toBottomOf="@+id/f_txtLayConfirmPassword"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <Button
+                android:id="@+id/btnF_Cancel"
+                style="@android:style/Widget.Button"
+                android:layout_width="105dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="23dp"
+                android:layout_marginBottom="25dp"
+                android:layout_weight="1"
+                android:background="@drawable/background_login"
+                android:text="Cancel"
+                android:textColor="#BF3F2A"
+                android:textSize="18sp"
+                app:backgroundTint="@android:color/darker_gray"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/btnF_sign"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/f_txtLayConfirmPassword" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</LinearLayout>

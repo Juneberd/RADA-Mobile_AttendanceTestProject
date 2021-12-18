@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/drawable/background.xml" value="0.2203125" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/drawable/background_1.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/drawable/background_2.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/drawable/background_3.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/drawable/background_edittext.xml" value="0.2203125" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/drawable/background_login.xml" value="0.2203125" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/drawable/background_txtview_lightmaroon.xml" value="0.2203125" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/drawable/backgroundlm_4.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/drawable/buttonbackground_1.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/drawable/buttonbordercolor.xml" value="0.2203125" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/drawable/ic_group.xml" value="0.2203125" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/drawable/roundedlightblue.xml" value="0.2203125" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/drawable/usernamelogin.xml" value="0.2203125" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/layout/activity_create_event.xml" value="0.18070652173913043" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/layout/activity_dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/layout/activity_dashboard_facilititor.xml" value="0.25" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/layout/activity_dashboard_student.xml" value="0.25" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/layout/activity_faci_attendance_list.xml" value="0.2" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/layout/activity_faci_event.xml" value="0.22" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/layout/activity_scan_qrcode.xml" value="0.17346014492753623" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/layout/activity_student_recent_list_attended.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/layout/content_activity_faci_event.xml" value="0.15489130434782608" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/layout/createevent_popwindow.xml" value="0.25" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/layout/facistulistdisplayinfo_1.xml" value="0.12635869565217392" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/layout/fragment_event_faci__fragment.xml" value="0.16394927536231885" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/layout/layout_list_attending.xml" value="0.25" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/layout/layout_list_event.xml" value="0.25" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/layout/layout_list_recentattended.xml" value="0.25" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/layout/option_get_image.xml" value="0.17" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/layout/popupwin_codetoattend.xml" value="0.25" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/layout/popupwindow_fulldetailevent.xml" value="0.25" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/layout/popwin_confirm_attend.xml" value="0.22" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/layout/resultget_img.xml" value="0.15534420289855072" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/layout/signup_facilitator.xml" value="0.25" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/layout/signup_student.xml" value="0.18" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/layout/updateinfo_facistu.xml" value="0.25" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/layout/updatinginfo_facilitator.xml" value="0.25" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/layout/updatinginfo_facistu.xml" value="0.1598731884057971" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/menu/activity_main_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/menu/editprofile_menu.xml" value="0.2" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/menu/menu_updatinginfo_faci_stu.xml" value="0.2" />
+        <entry key="..\:/Users/Stray Dog/AndroidStudioProjects/AttendanceTestProject/app/src/main/res/menu/popmenu_signin.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--Maroon-->
+    <color name="maroon">#880000</color>
+    <color name="lightm">#bf3f2a</color>
+    <color name="darkm">#560000</color>
+
+    <color name="blue_2196f3">#2196f3</color>
+    <color name="bluelight_6ec6ff">#6ec6ff</color>
+    <color name="bluedark_0069c0">#0069c0</color>
+
+</resources>
